@@ -25,9 +25,14 @@ body {
 /* Urdu Typography Classes */
 .font-urdu-nastaliq {
   font-family: 'Noto Nastaliq Urdu', serif;
-  line-height: 2.8;
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
+  line-height: 3.2;
+  padding-top: 0.35rem;
+  padding-bottom: 0.35rem;
+}
+
+.hero-urdu-slogan {
+  font-family: 'Noto Nastaliq Urdu', serif;
+  line-height: 3.8;
 }
 
 .font-urdu {
