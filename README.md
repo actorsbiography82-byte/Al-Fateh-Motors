@@ -26,7 +26,7 @@
    - Mobile-responsive slide-out navigation drawer.
 
 2. **Hero Section (Enhanced with 3D & Owner Showcase):**
-   - **Owner Profile Badge/Container:** Displays an attractive portrait container for owner **Makhdoom Syed Shadab Hussain Shah Gillani (مخدوم سید شاداب حسین شاہ گیلانی)** with an animated multi-gradient glow ring, active status indicator, verified dealership badge, and 1-click WhatsApp/Call shortcuts directly alongside the hero text.
+   - **Owner Profile Badge/Container:** Displays the authentic profile photo of owner **Makhdoom Syed Shadab Hussain Shah Gillani (مخدوم سید شاداب حسین شاہ گیلانی)** (`image_51.png`) with an animated multi-gradient glow ring, active status indicator, verified dealership badge, and 1-click WhatsApp/Call shortcuts directly alongside the hero text.
    - **3D Interactive Floating Bike Showcase:** Features dynamic CSS 3D parallax effects, responsive mouse-tilt perspective tracking, animated rotating holographic rings, floating cyber particles, and multi-layer floating 3D specification badges.
    - Bold Urdu Nastaliq typography and English headings.
    - Quick statistics (`15+ Years Trust`, `100% Verified Papers`, `1000+ Satisfied Customers`, `#1 Auto Market RYK`).

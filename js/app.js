@@ -504,11 +504,16 @@ window.openBikeModal = function(id) {
         </div>
 
         <!-- Dealer Contact Info -->
-        <div class="p-4 rounded-2xl bg-gradient-to-r from-red-950/30 to-slate-950 border border-red-900/30 flex items-center justify-between">
-          <div>
-            <span class="text-xs text-red-400 font-semibold block">Dealership Owner</span>
-            <strong class="text-white text-sm">مخدوم سید شاداب حسین شاہ گیلانی</strong>
-            <span class="text-xs text-gray-400 block">Auto Market, Rahim Yar Khan</span>
+        <div class="p-4 rounded-2xl bg-gradient-to-r from-red-950/30 to-slate-950 border border-red-900/30 flex items-center justify-between gap-3">
+          <div class="flex items-center gap-3">
+            <div class="w-12 h-12 rounded-full p-0.5 avatar-glow-ring flex-shrink-0 overflow-hidden shadow-md">
+              <img src="assets/images/image_51.png" alt="Makhdoom Syed Shadab Hussain Shah Gillani" class="w-full h-full object-cover object-top rounded-full">
+            </div>
+            <div>
+              <span class="text-xs text-red-400 font-semibold block">Dealership Owner</span>
+              <strong class="text-white text-sm font-urdu">مخدوم سید شاداب حسین شاہ گیلانی</strong>
+              <span class="text-xs text-gray-400 block">Auto Market, Rahim Yar Khan</span>
+            </div>
           </div>
           <div class="text-right">
             <span class="text-xs text-gray-400 block">Helpline</span>
