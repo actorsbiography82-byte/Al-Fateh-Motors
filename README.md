@@ -19,16 +19,17 @@
 
 ## 🌟 Key Features
 
-1. **Sticky Modern Header & Navigation:**
-   - Automotive logo badge and dual Urdu/English brand identity.
-   - Quick navigation links (`Home`, `Bikes Inventory`, `Sell Your Bike`, `About Us`, `Contact & Location`).
+1. **Clean Header & Urdu Navigation:**
+   - Circular owner avatar image (`image_51.png`) with online status indicator replacing traditional icons.
+   - Pure Urdu brand typography: **"الفتح موٹرز"**.
+   - Clean Urdu navigation links (`ہوم`, `موٹر سائیکلز`, `فروخت کریں`, `ہمارے بارے میں`, `رابطہ`).
    - High-visibility Call Now (`tel:03004892167`) and glowing WhatsApp chat buttons.
-   - Mobile-responsive slide-out navigation drawer.
+   - Mobile-responsive slide-out navigation drawer with pure Urdu labels.
 
 2. **Hero Section (Enhanced with 3D & Owner Showcase):**
    - **Owner Profile Badge/Container:** Displays the authentic profile photo of owner **Makhdoom Syed Shadab Hussain Shah Gillani (مخدوم سید شاداب حسین شاہ گیلانی)** (`image_51.png`) with an animated multi-gradient glow ring, active status indicator, verified dealership badge, and 1-click WhatsApp/Call shortcuts directly alongside the hero text.
    - **3D Interactive Floating Bike Showcase:** Features dynamic CSS 3D parallax effects, responsive mouse-tilt perspective tracking, animated rotating holographic rings, floating cyber particles, and multi-layer floating 3D specification badges.
-   - Bold Urdu Nastaliq typography and English headings.
+   - Bold Urdu Nastaliq typography with enhanced line spacing so text and diacritics never overlap.
    - Quick statistics (`15+ Years Trust`, `100% Verified Papers`, `1000+ Satisfied Customers`, `#1 Auto Market RYK`).
 
 3. **Interactive Bikes Inventory:**
@@ -43,18 +44,18 @@
    - Sellers can input make, model year, condition, expected price, and contact info.
    - Automatically builds a pre-formatted Urdu/English WhatsApp deal message sent directly to `0300-4892167`.
 
-5. **About Us Section:**
-   - Dignified spotlight on owner **Makhdoom Syed Shadab Hussain Shah Gillani (مخدوم سید شاداب حسین شاہ گیلانی)**.
+5. **About Us Section (Unobstructed Owner Portrait):**
+   - Dignified spotlight on owner **Makhdoom Syed Shadab Hussain Shah Gillani (مخدوم سید شاداب حسین شاہ گیلانی)** with an unobstructed, crystal-clear portrait container and separate info panel.
    - Golden seal of trust and owner's commitment to 100% legal biometric and verified documentation.
    - Direct link to official TikTok account `@syedshadabgillani`.
 
 6. **Customer Testimonials & Reviews:**
    - Real testimonials from satisfied motorcycle buyers across Rahim Yar Khan, Sadiqabad, and Khanpur.
 
-7. **Showroom Location & Contact:**
+7. **Showroom Location & Exact Map Coordinates:**
    - Complete contact card with telephone links, WhatsApp links, and business hours.
-   - Embedded Google Maps frame centered on Auto Market, Rahim Yar Khan.
-   - Quick message form.
+   - Embedded Google Maps frame with exact coordinates: `28°25'15.9"N 70°18'07.6"E` (28.421083, 70.302111).
+   - Direct "Open in Google Maps" shortcut link.
 
 8. **Mobile Optimization:**
    - Fixed bottom call & WhatsApp action bar for instant one-touch dialing on mobile devices.
