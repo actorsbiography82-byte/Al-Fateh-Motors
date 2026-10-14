@@ -191,6 +191,7 @@ document.addEventListener("DOMContentLoaded", () => {
   setupContactForm();
   setupMobileMenu();
   setupModalCloser();
+  setupHero3DParallax();
 });
 
 // Render Bikes Grid
@@ -646,3 +647,58 @@ function setupMobileMenu() {
     });
   });
 }
+
+// 3D Hero Parallax & Dynamic Interactive Effect
+function setupHero3DParallax() {
+  const heroScene = document.getElementById("hero3DScene");
+  const card = document.getElementById("hero3DCard");
+  const particleContainer = document.getElementById("heroParticlesContainer");
+
+  // Create subtle floating glowing particles
+  if (particleContainer) {
+    const colors = ["rgba(239, 68, 68, 0.7)", "rgba(34, 197, 94, 0.7)", "rgba(245, 158, 11, 0.6)", "rgba(59, 130, 246, 0.5)"];
+    for (let i = 0; i < 16; i++) {
+      const p = document.createElement("div");
+      p.className = "particle";
+      const size = Math.floor(Math.random() * 6) + 4;
+      p.style.width = `${size}px`;
+      p.style.height = `${size}px`;
+      p.style.left = `${Math.random() * 100}%`;
+      p.style.bottom = `${Math.random() * 40}%`;
+      p.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+      p.style.boxShadow = `0 0 10px ${p.style.backgroundColor}`;
+      p.style.animationDuration = `${Math.random() * 4 + 4}s`;
+      p.style.animationDelay = `${Math.random() * 5}s`;
+      particleContainer.appendChild(p);
+    }
+  }
+
+  if (!heroScene || !card) return;
+
+  // Mouse tilt tracking
+  let isHovered = false;
+
+  heroScene.addEventListener("mouseenter", () => {
+    isHovered = true;
+  });
+
+  heroScene.addEventListener("mousemove", (e) => {
+    const rect = heroScene.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+
+    const centerX = rect.width / 2;
+    const centerY = rect.height / 2;
+
+    const rotateX = ((y - centerY) / centerY) * -14;
+    const rotateY = ((x - centerX) / centerX) * 16;
+
+    card.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale3d(1.03, 1.03, 1.03)`;
+  });
+
+  heroScene.addEventListener("mouseleave", () => {
+    isHovered = false;
+    card.style.transform = "rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)";
+  });
+}
+
